@@ -33,31 +33,43 @@ v2 版本加入了 **7 条硬性约束**,解决 v1 实战中暴露的问题:
 
 本 skill 解决的就是 BERT 抓的那部分:**段落整体的论述结构、句子间的流畅度、抽象 vs 具体的比例**。
 
-## 安装(Claude Code)
+## 安装
+
+### 方式 1:Claude Code Plugin(推荐)
+
+在 Claude Code 里执行:
+
+```
+/plugin marketplace add ranranrannervous/cn-humanizer-academic
+/plugin install cn-humanizer-academic@cn-humanizer-academic
+```
+
+安装完成后重启 Claude Code,skill 会自动加载。
+
+### 方式 2:手动 clone
 
 ```bash
-git clone <你的仓库或本地路径> ~/.claude/skills/cn-humanizer-academic
+git clone https://github.com/ranranrannervous/cn-humanizer-academic.git
+cp -r cn-humanizer-academic/skills/cn-humanizer-academic ~/.claude/skills/
 ```
 
-或者直接把 SKILL.md 复制到:
-
-```
-~/.claude/skills/cn-humanizer-academic/SKILL.md
-```
+### 使用
 
 重启 Claude Code 后,在对话里说:
-
-```
-/cn-humanizer-academic 帮我改这段
-[粘贴文本]
-```
-
-或者直接说:
 
 ```
 帮我用语义层降低这段的 AI 痕迹
 [粘贴文本]
 ```
+
+或者:
+
+```
+帮我改这段降 AIGC 检测率
+[粘贴文本]
+```
+
+Claude 会自动触发本 skill。
 
 ## 使用建议
 
