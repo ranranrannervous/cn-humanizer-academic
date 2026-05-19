@@ -100,6 +100,10 @@ Gemini CLI 会自动加载根目录的 `GEMINI.md`,通过 `activate_skill` 激�
 ❌ 英文论文(BERT 中文版和英文版指纹不同)
 ❌ 营销文案 / 公众号文章
 
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=ranranrannervous/cn-humanizer-academic&type=Date)](https://star-history.com/#ranranrannervous/cn-humanizer-academic&Date)
+
 ## License
 
 MIT
