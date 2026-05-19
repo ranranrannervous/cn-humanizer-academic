@@ -5,14 +5,14 @@
     "url": "https://github.com/ranranrannervous"
   },
   "metadata": {
-    "description": "中文学术论文降 AI 痕迹的 Claude Skill 市场（专攻 BERT 语义检测器）",
+    "description": "中文学术论文降 AI 痕迹 Skill 市场（专攻 BERT 语义检测器）",
     "version": "2.0.0"
   },
   "plugins": [
     {
       "name": "cn-humanizer-academic",
       "source": ".",
-      "description": "中文学术论文降 AIGC 检测率 Skill (BERT 对抗版 v2)，针对知网 4.0+ / 维普 / PaperPass",
+      "description": "中文学术论文降 AIGC 检测率 Skill (BERT 对抗版)，针对知网 4.0+ / 维普 / PaperPass",
       "version": "2.0.0",
       "author": {
         "name": "ranranrannervous",

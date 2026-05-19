@@ -1,7 +1,7 @@
 {
   "name": "cn-humanizer-academic",
   "version": "2.0.0",
-  "description": "中文学术论文降 AIGC 检测率 Skill (BERT 对抗版 v2)，针对知网 4.0+ / 维普 / PaperPass",
+  "description": "中文学术论文降 AIGC 检测率 Skill (BERT 对抗版)，针对知网 4.0+ / 维普 / PaperPass",
   "author": {
     "name": "ranranrannervous",
     "url": "https://github.com/ranranrannervous"
