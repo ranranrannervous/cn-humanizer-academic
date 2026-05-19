@@ -46,16 +46,33 @@ v2 版本加入了 **7 条硬性约束**,解决 v1 实战中暴露的问题:
 
 安装完成后重启 Claude Code,skill 会自动加载。
 
-### 方式 2:手动 clone
+### 方式 2:手动 clone(Claude Code)
 
 ```bash
 git clone https://github.com/ranranrannervous/cn-humanizer-academic.git
 cp -r cn-humanizer-academic/skills/cn-humanizer-academic ~/.claude/skills/
 ```
 
+### 方式 3:Codex CLI
+
+```bash
+git clone https://github.com/ranranrannervous/cn-humanizer-academic.git
+cp -r cn-humanizer-academic/skills/cn-humanizer-academic ~/.codex/skills/
+```
+
+工具映射详见 [`references/codex-tools.md`](references/codex-tools.md)。
+
+### 方式 4:Gemini CLI
+
+```bash
+git clone https://github.com/ranranrannervous/cn-humanizer-academic.git ~/.gemini/skills/cn-humanizer-academic
+```
+
+Gemini CLI 会自动加载根目录的 `GEMINI.md`,通过 `activate_skill` 激活。
+
 ### 使用
 
-重启 Claude Code 后,在对话里说:
+安装完后在对话里说:
 
 ```
 帮我用语义层降低这段的 AI 痕迹
@@ -69,7 +86,7 @@ cp -r cn-humanizer-academic/skills/cn-humanizer-academic ~/.claude/skills/
 [粘贴文本]
 ```
 
-Claude 会自动触发本 skill。
+Claude / Codex / Gemini 会自动触发本 skill。
 
 ## 使用建议
 
